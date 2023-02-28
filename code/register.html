@@ -1,0 +1,84 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<TITLE> REGISTRATION PAGE </TITLE>
+<STYLE>
+.button {
+  border: none;
+  
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.button1{  background-color:green; color: white;}
+.button2{  background-color: tomato; color:white;}
+.head{ background-color: ghostwhite; }
+.reg{ background-color: white}
+</STYLE>
+
+</HEAD>
+
+<BODY> 
+<FORM METHOD=POST ACTION="regstore.jsp">
+<table width = 100% colspan = 2 bgcolor = "Black">
+<tr>
+	<!--<td><a href = "#home"><img src = "C:\Users\123\html\logo.jpg" width = 100 height = 100 ></a></td>-->
+	<td><font color="white" size = 40><em><strong>&nbsp;LAcademy</strong></em></font></td>
+	</tr>
+</table>
+<div class="head">
+<h1 align = "center"><FONT SIZE="30" COLOR="black"><B>Hello, Learner!</B></FONT><br><FONT COLOR="#838383">Enter your personal details and start journey with us</FONT></h1></div>
+<div class= "reg">
+<TABLE width = 40% cellspacing ="3" cellpadding="2" align = "center"  >
+
+<TR><TD><STRONG>Student Name</STRONG></TD></TR>
+<TR><TD><input type ="text" name= 'fname' size =20 ></TD><TD></TD><TD></TD>
+<TD><input type ="text" name='lname' size =20 ></TD></TR>
+<TR><TD>firstname</TD><TD></TD><TD></TD><TD>lastname</TD></TR><TR></TR><TR></TR>
+<TR><TD><STRONG>Age</STRONG></TD></TR>
+<TR><TD><input type ="text" name= 'age' size =10 ></TD></TR><TR></TR><TR></TR>
+<TR><TD><STRONG>Date of birth</STRONG> </TD></TR>
+<TR><TD><input type = "text" name = 'dob' placeholder = 'MM-DD-YY'> </TD></TR><TR></TR><TR></TR>
+<TR><TD><STRONG>Gender</STRONG></TD></TR>
+<TR><TD><input type = "radio" id = 'male' name = 'gender' value = 'male'>Male</TD></TR>
+<TR><TD><input type = "radio" id = 'female' name = 'gender' value = 'female'>Female </TD></TR><TR></TR><TR></TR>
+<TR><TD><STRONG>Phone Number</STRONG></TD></TR>
+<TR><TD><input type = 'text' name = 'pno' ></TD></TR><TR></TR>
+<TR><TD><STRONG>Email Address</STRONG></TD></TR>
+<TR><TD><input type ='text' name='emailadd' placeholder ='example@gmail.com' size =20</TD></TR><TR></TR><TR></TR>
+<TR><TD><STRONG>city</STRONG></TD><TD></TD><TD></TD><TD><STRONG>State/Province</STRONG></TD></TR><TR></TR><TR></TR>
+<TR><TD><input type='text' name = 'city' size = 15 ></TD><TD></TD><TD></TD><TD> <input type = 'text' name ='state' size = 15></TR>
+
+<TR><TD><STRONG>Pincode</STRONG></TD></TR>
+<TR><TD><input type ='text' name ='pincode' size = 10></TD></TR><TR></TR><TR></TR>
+
+<TR><TD><STRONG>User ID</STRONG></TD></TR>
+<TR><TD><input type ='text' name ='uname' size = 10></TD></TR><TR></TR><TR></TR>
+<TR><TD><STRONG>Password</STRONG></TD></TR>
+<TR><TD><input type ='password' name ='pwd' size = 10></TD></TR><TR></TR><TR></TR>
+<TR><TD><STRONG>Confirm password</STRONG></TD></TR>
+<TR><TD><input type ='password' name ='pwdd' size = 10></TD></TR><TR></TR><TR></TR>
+<TR><TD><BUTTON type="submit" class="button button1"  color = "red">Submit</BUTTON></TD>
+<TD>
+</TD><TD></TD>
+<TD><BUTTON type = "button" class="button button2" color ="red">Clear fields</BUTTON></TR><tr></tr>
+</TABLE></div>
+<TABLE width = 100% bgcolor = "#000033" height = 100 align = "center" >
+<TR >
+<TD><font color= "white">Back to home page&nbsp;<a href = "home.html">click here</font></a></TD>
+</TR>
+<TR>
+	<TD><font color = "white">Already have an account?&nbsp;<A HREF="login.html">login</font></A></TD>
+</TR>
+<tr><td><font color = "white" >&nbsp;Copyright 1999-2022 by Refsnes Data. All Rights Reserved.
+LAcademy is Powered by Coursera.
+</font></td></tr>
+</TABLE>
+</FORM>
+</BODY>
+</HTML>
